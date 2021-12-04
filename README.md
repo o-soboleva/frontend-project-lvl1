@@ -4,3 +4,4 @@
 )
 [![Node CI](https://github.com/o-soboleva/frontend-project-lvl1/actions/workflows/node.js.yml/badge.svg)](https://github.com/o-soboleva/frontend-project-lvl1/actions/workflows/node.js.yml)
 [![asciicast](https://asciinema.org/a/452012.svg)](https://asciinema.org/a/452012)
+[![asciicast](https://asciinema.org/a/cNcM6AZXTKPaZiim4cRnx3nrE.svg)](https://asciinema.org/a/cNcM6AZXTKPaZiim4cRnx3nrE)
