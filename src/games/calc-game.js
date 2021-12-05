@@ -15,7 +15,7 @@ const calc = (a, b, operator) => {
   return result;
 };
 
-const round = 'What is the result of the expression?';
+const rule = 'What is the result of the expression?';
 
 const gameCalculator = () => {
   const operators = ['+', '-', '*'];
@@ -27,6 +27,6 @@ const gameCalculator = () => {
   return [question, correctAnswer];
 };
 
-const brainCalc = () => gameShell(round, gameCalculator);
+const brainCalc = () => gameShell(rule, gameCalculator);
 
 export default brainCalc;
