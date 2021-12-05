@@ -1,11 +1,7 @@
 import readlineSync from 'readline-sync';
+import getRandomInt from '../getRandom.js';
 
-const getRandomInt = (min, max) => {
-  const min1 = Math.ceil(min);
-  const max1 = Math.floor(max);
-  return Math.floor(Math.random() * (max1 - min1)) + min1;
-};
-export const dialog = () => {
+export const brainEven = () => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
