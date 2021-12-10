@@ -9,7 +9,7 @@ const gameShell = (rule, gameQuestionAnswer) => {
   console.log(rule);
   for (let i = 1; i <= numRound; i += 1) {
     const [gameQuestion, correctAnswer] = gameQuestionAnswer();
-    console.log('Question: ', gameQuestion);
+    console.log('Question:', gameQuestion);
     const answer = readlineSync.question('Your answer: ');
     if (answer === correctAnswer) {
       console.log('Correct!');
