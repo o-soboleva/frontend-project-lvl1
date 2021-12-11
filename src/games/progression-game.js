@@ -18,13 +18,13 @@ const formProgression = (a, step, lengthProgression, positionX) => {
 const rule = 'What number is missing in the progression?';
 
 const gameProgression = () => {
-  const randomN = getRandomInt(5, 10); // количество членов прогрессии
+  const randomN = getRandomInt(6, 10); // количество членов прогрессии
   const randomPositionX = getRandomInt(0, randomN - 2); // позиция пропущенного числа
   const firstNum = getRandomInt(0, 50);// первый член прогрессии
   const randomStep = getRandomInt(1, 10);
   const [res, arr] = formProgression(firstNum, randomStep, randomN, randomPositionX);
   const correctAnswer = res.toString();
-  const question = arr.join(', ');
+  const question = arr.join(' ');
   return [question, correctAnswer];
 };
 
