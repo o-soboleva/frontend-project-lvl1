@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import { dialog } from '../src/cli.js';
+import dialog from '../src/cli.js';
 
 dialog();
