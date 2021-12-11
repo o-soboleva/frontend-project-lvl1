@@ -22,7 +22,7 @@ const gameCalculator = () => {
   const randomNum1 = getRandomInt(0, 10);
   const randomNum2 = getRandomInt(0, 10);
   const operator = operators[getRandomInt(0, operators.length)];
-  const question = `${randomNum1}${operator}${randomNum2}`;
+  const question = `${randomNum1} ${operator} ${randomNum2}`;
   const correctAnswer = calc(randomNum1, randomNum2, operator).toString();
   return [question, correctAnswer];
 };
